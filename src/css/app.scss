@@ -1,0 +1,91 @@
+// app global css in SCSS form
+/* app global css */
+/* app global css */
+.login-page {
+  height: 100% !important;
+  // background-image: url("~assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.login-card {
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+  background-color: #0000001a;
+}
+.error-banner {
+  min-height: 40px;
+  border-radius: 4px;
+}
+
+.breadcrumb-margin {
+  margin: -30px 16px 16px 16px;
+}
+.dashboard-breadcrumb-margin {
+  margin: -45px 16px 16px 16px;
+}
+
+// .q-item__section--main {
+//   flex: none;
+// }
+.q-item__section--avatar {
+  min-width: 0;
+}
+.q-field__bottom {
+  padding: 4px 12px 0;
+}
+.q-field--standard.q-field--readonly .q-field__control:before {
+  border-bottom-style: unset;
+}
+
+.nav-item-wrapper {
+  min-height: 40px;
+}
+.active-menu-link {
+  color: #fff;
+  background: $accent;
+  border-radius: 24px;
+}
+.q-drawer {
+  .q-focusable > .q-focus-helper,
+  .q-focusable > .q-focus-helper:before,
+  .q-focusable > .q-focus-helper:after {
+    border-radius: 24px;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.view-margin {
+  margin-top: -10px !important;
+}
+
+.submit-button {
+  padding: 0 15px 0 15px !important;
+}
+
+.q-uploader__file-status {
+  display: none;
+}
+.q-uploader__subtitle {
+  display: none;
+}
+
+.change-album:hover {
+  color: #ffa726;
+  transition: 0.5s;
+}
+
+.q-field__bottom {
+  padding: 4px 0 0;
+}
+
+.no-display {
+  display: none;
+}
+
+.inner-load-opacity {
+  opacity: 0.7;
+}
