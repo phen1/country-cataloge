@@ -16,7 +16,6 @@
           :filterss="filters"
           :filter-method="onSearch"  
           @request="onRequest"
-          @row-click="onRowClick"
           @row-dblclick="onRowDblClick"
           :rows-per-page-options="[25]"
           binary-state-sort
@@ -127,7 +126,6 @@ const {
   selected,
   pagination,
   onRequest,
-  onRowClick,
   onRowDblClick,
   onRefresh,
 } = useTable(paginateCountry);
