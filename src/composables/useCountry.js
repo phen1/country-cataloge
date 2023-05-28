@@ -23,7 +23,7 @@ export default function useCountry() {
       name: "flag",
       label: "FlAG",
       required: true,
-      field: (row) => row.flag,
+      field: (row) => country.flags?.png,
       align: "left",
       sortable: true,
     },

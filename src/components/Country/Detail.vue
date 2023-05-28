@@ -5,8 +5,8 @@
         maxWidth: '100%',
       }"
     >
-      <q-bar dark class="bg-primary text-white px-3">
-        <span class="text-body2">Country Detail View</span>
+      <q-toolbar dark class="bg-primary text-white px-3">
+        <span class="text-h6">Country Detail View</span>
         <q-space />
         <q-btn
           dense
@@ -15,9 +15,8 @@
           @click="emit('onClose')"
           :disable="saving"
         >
-          <q-tooltip>Close</q-tooltip>
         </q-btn>
-      </q-bar>
+      </q-toolbar>
       <q-card-section class="q-px-lg">
 
           <div class="row">
@@ -105,7 +104,7 @@
 
                 <p v-for="(map,key) in country.maps" :key="key">
                     <label class="text-bold">Map {{key}} : </label> 
-                    <a :href="map">{{ map }}</a>
+                    <a :href="map" target="_blank">{{ map }}</a>
                 </p>
 
                 <p><label class="text-bold">Population :</label> {{ country.population}}</p>

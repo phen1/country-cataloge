@@ -31,12 +31,14 @@
               placeholder="Search By Name"
               style="width: 300px"
             />
+
             <q-btn 
-              color="primary" 
-              class="float-left "
               style="margin-left:60px;"
               @click="onSearch"
-              label="Search" />
+              color="primary">
+              Search
+              
+            </q-btn>
             <q-btn
               class="q-mr-sm q-mt-xs"
               dense
@@ -46,6 +48,9 @@
               
               style="margin-left: 60px"
               @click="resetFilters">
+              <q-tooltip class="bg-black" :offset="[10, 10]">
+                Reset Filter
+              </q-tooltip>
             </q-btn>
 
           </template>
